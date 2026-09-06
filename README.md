@@ -43,8 +43,3 @@ A simple counter component built to practice React state and component updates.
 * CSS
 * Git & GitHub
 
-## 🎯 Goal
-
-Build strong React fundamentals through hands-on implementation and progressively develop production-ready frontend development skills.
-
-> Learn → Build → Practice → Improve

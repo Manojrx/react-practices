@@ -1,50 +1,16 @@
-# React Foundations ⚛️
+# React + Vite
 
-This repository contains the React concepts, exercises, and projects I’m working on as I learn and improve my frontend development skills.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 📚 Concepts Practiced
+Currently, two official plugins are available:
 
-* JSX
-* Functional Components
-* Props
-* `useState`
-* Event Handling
-* Conditional Rendering
-* Array & Object State
-* Component Composition
-* Passing Functions as Props
-* Reusable Components
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🎮 Projects
+## React Compiler
 
-### Tic-Tac-Toe
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Built a simple Tic-Tac-Toe game to practice React state management and component-based development.
+## Expanding the ESLint configuration
 
-**Implemented:**
-
-* X and O player turns
-* Winner detection
-* Game state management
-* Reusable `Square` component
-* Click event handling
-* Conditional game status
-
-### Counter
-
-A simple counter component built to practice React state and component updates.
-
-## 🛠️ Tech Stack
-
-* React
-* JavaScript
-* Vite
-* HTML
-* CSS
-* Git & GitHub
-
-## 🎯 Goal
-
-Build strong React fundamentals through hands-on implementation and progressively develop production-ready frontend development skills.
-
-> Learn → Build → Practice → Improve
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
